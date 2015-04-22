@@ -27,11 +27,11 @@ After setting the source directory for the files, read into tables the data loca
 
 The script `run_analysis.R` performs the 5 steps as described in the course project.
 
- 1. Merge the input data using the `rbind()` function. 
-1. The columns with the mean and standard deviation measures are extracted from the whole dataset. Then the columns are renamed with labels extracted from `features.txt`
-1. Uses descriptive activity names taken from `activity_labels.txt` to name the activities in the data set.
-1. Appropriately labels the columns of data set with descriptive variable names using `gsub()`.
-1. From the data set created above, an independent tidy data set (30 subjects * 6 activities = 180 rows)
+1. Merge the input data using the `rbind()` function. 
+2. The columns with the mean and standard deviation measures are extracted from the whole dataset. Then the columns are renamed with labels extracted from `features.txt`
+3. Uses descriptive activity names taken from `activity_labels.txt` to name the activities in the data set.
+4. Appropriately labels the columns of data set with descriptive variable names using `gsub()`.
+5. From the data set created above, an independent tidy data set (30 subjects * 6 activities = 180 rows)
 with the average of each variable for each activity and each subject is created The output file is called `Tidy_data.txt`, and uploaded to this repository.
 
 ## Code Book ##
